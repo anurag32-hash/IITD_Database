@@ -159,13 +159,21 @@ be the same as that of Ram Singh, but is different from that of Shyam Singh. Thu
 above input file, the output could be:
 
 1
+
 2
+
 1
+
 2
+
 2
+
 F
-Shyam Singh Satpura EE 8.
+
+Shyam Singh Satpura EE 8.1
+
 1-
+
 E
 
 Here, F signifies false (T signifies true) and E signifies that an error happened (because the
@@ -176,13 +184,21 @@ Lallan Singh does not collide with that of Ram Singh, and index for Shyam Singh 
 with first Ram Singh and then Lallan Singh and is finally 4, the expected output would be:
 
 1
+
 1
+
 3
+
 1
+
 1
+
 F
+
 Shyam Singh Satpura EE 8.2
+
 4
+
 E
 
 # References
