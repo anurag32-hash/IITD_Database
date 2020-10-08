@@ -1,0 +1,9 @@
+insert Kallu Yadav Nilgiri CS 6.5
+insert Tillu Yadav Nilgiri CE 6.0
+insert Shyaam Singh Satpura EE 8.2
+update Tillu Yadav Nilgiri CE 5.0
+delete Kallu Yadav
+contains Kallu Yadav
+get Shyaam Singh
+address Shyaam Singh
+address Kallu Yadav

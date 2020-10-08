@@ -1,0 +1,14 @@
+insert Ram Singh Nilgiri CS 6.0
+insert Ram Chadda Nilgiri CS 6.0
+insert Ram Avasti Nilgiri CS 6.0
+insert Saksham Singh Nilgiri CS 6.0
+insert Ram Avasti Nilgiri CS 6.0
+delete Ram Avasti
+update Ram Avasti Nilgiri CS 7.0
+get Ram Avasti
+contains Ram Avasti
+address Ram Avasti
+display
+
+
+
