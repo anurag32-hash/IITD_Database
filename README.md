@@ -90,11 +90,17 @@ name, last name) and T needs to be a student record, which is a class that imple
 interface:
 
 public interface Student_ {
-public String fname(); // Return student’s first name
-public String lname(); // Return student’s last name
-public String hostel(); // Return student’s hostel name
-public String department(); // Return student’s department name
-public String cgpa(); // Return student’s cgpa
+
+public String fname();   // Return student’s first name
+
+public String lname();   // Return student’s last name
+
+public String hostel();  // Return student’s hostel name
+
+public String department();   // Return student’s department name
+
+public String cgpa();   // Return student’s cgpa
+
 }
 
 You may assume that the CGPA is not calculated but is entered directly by the user when
@@ -152,11 +158,14 @@ separate line. Suppose we are running for SCBST and the index of Lallan Singh tu
 be the same as that of Ram Singh, but is different from that of Shyam Singh. Thus, for the
 above input file, the output could be:
 
-
-## 1 2 1 2 2 F
-
+1
+2
+1
+2
+2
+F
 Shyam Singh Satpura EE 8.
-1 -
+1-
 E
 
 Here, F signifies false (T signifies true) and E signifies that an error happened (because the
@@ -166,14 +175,16 @@ If the same input file is supplied to the double hashing approach, assuming that
 Lallan Singh does not collide with that of Ram Singh, and index for Shyam Singh collides
 with first Ram Singh and then Lallan Singh and is finally 4, the expected output would be:
 
-1 1 3 1 1 F
-
-Shyam Singh Satpura EE 8.
+1
+1
+3
+1
+1
+F
+Shyam Singh Satpura EE 8.2
 4
 E
 
 # References
 
 [1] Hash Functions. [http://www.cse.yorku.ca/~oz/hash.html](http://www.cse.yorku.ca/~oz/hash.html)
-
-
